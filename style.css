@@ -1,0 +1,61 @@
+body{
+    margin:0;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+header>h2{
+    font-size: 2rem;
+    
+    background-color: chartreuse;
+}
+header>button{
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: chartreuse;
+   
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: chartreuse;
+}
+.container div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+
+}
+span{
+    height:50px;
+    border-radius: 50%;
+    background-color: white;
+    width:50px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+}
+.item{
+    padding: 4px;
+    background-color: chocolate;
+    width: 104px;
+    height: 104px;
+    border-radius: 10%;
+    display: flex;
+    flex-flow:column wrap;
+    
+ 
+} 
